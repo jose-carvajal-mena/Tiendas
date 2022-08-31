@@ -14,6 +14,7 @@ app.use(require('./routes/productos'));
 app.use(require('./routes/tiendas'));
  //para todas las rutas
 
+// Creacion del puerto.
 app.listen(app.get('port'), () => {
     console.log('Servidor en puerto:', app.get('port'));
 });
